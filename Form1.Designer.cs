@@ -1,6 +1,6 @@
 ﻿namespace CsPractice3
 {
-    partial class Fraction
+    partial class FractionPresentation
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -192,7 +192,7 @@
             this.CountButton.UseVisualStyleBackColor = true;
             this.CountButton.Click += new System.EventHandler(this.CountButton_Click);
             // 
-            // Fraction
+            // FractionPresentation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -215,7 +215,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Fraction";
+            this.Name = "FractionPresentation";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fraction Presentation";

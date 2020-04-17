@@ -4,7 +4,7 @@ namespace CsPractice3
 {
     class CommonFraction
     {
-       public Int32 numerator;
+         Int32 numerator;
          Int32 denominator;
 
         public CommonFraction(Int32 numerator = 1, Int32 denominator = 1)

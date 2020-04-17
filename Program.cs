@@ -13,7 +13,7 @@ namespace CsPractice3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Fraction());
+            Application.Run(new FractionPresentation());
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CsPractice3
 {
-    public partial class Fraction : Form
+    public partial class FractionPresentation : Form
     {
         CommonFraction fraction1 = new CommonFraction();
         CommonFraction fraction2 = new CommonFraction();
@@ -13,7 +13,7 @@ namespace CsPractice3
 
         String taskLine;
 
-        public Fraction()
+        public FractionPresentation()
         {
             InitializeComponent();
         }
