@@ -36,7 +36,7 @@ namespace CsPractice3
 
                     result = (fraction1 + fraction2) * (fraction1 - fraction3);
 
-                    taskLine = $"R = ({fraction1} + {fraction2}) * ({fraction1} - {fraction3}) = {result}";
+                    taskLine = $"R = (a1/b1 + a2/b2) * (a1/b1 - a3/b3)\nR = ({fraction1} + {fraction2}) * ({fraction1} - {fraction3}) = {result}";
 
                     taskLine = taskLine.Replace("+ -", "- ");
 
