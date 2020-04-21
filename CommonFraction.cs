@@ -64,6 +64,7 @@ namespace CsPractice3
             {
                 this.numerator = numerator;
                 this.denominator = denominator;
+
                 return true;
             }
             else return false;
